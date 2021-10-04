@@ -1,0 +1,101 @@
+.container{
+	font-size: 18px;
+	color: #2d3748;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+	display: grid;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+
+}
+
+.headergrid{
+	background-color: #63b3ed;
+	color: #FFFFFF;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	padding: 5px;
+	float: center;
+}
+
+.headergrid h1{
+	font-size: 36px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.maingrid{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	padding-left: 100px;
+}
+
+.maingrid h2{
+
+	font-size: 32px;
+	color: #48bb78;
+}
+
+.maingrid h5{
+	color: #718096;
+}
+
+.sidegrid{
+
+	grid-column-start: 3;
+	grid-column-end: 4;
+	padding-left: 50px;
+	padding-right: 5px;
+}
+
+.aboutsec{
+	background-color: #e2e8f0;
+	padding: 5px;
+}
+.aboutsec h3{
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.socialsec{
+	padding: 5px;
+}
+
+.socialsec h3{
+	color: #48bb78;
+}
+
+.socialsec ul{
+	color: #4299E1;
+}
+
+.archivessec {
+	padding: 5px;
+}
+.archivessec h3{
+	color: #48bb78;
+}
+
+.archivessec ul{
+	color: #4299E1;
+}
+
+
+.footergrid{
+	background-color: #2c5282;
+	color: #ffffff;
+	padding: 5px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.headerimg {
+	width: 20%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.paraimg{
+	float: left;
+	width: 15%;
+	height: auto;
+	margin: 5px;
+}
